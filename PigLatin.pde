@@ -1,6 +1,6 @@
 public void setup() 
 {
-	String[] lines= {"curn","usuckdick","quick","quicy","aeiou","star","fuck"};
+	String[] lines = loadStrings("words.txt");
 	System.out.println("there are " + lines.length + " lines");
 	for (int i = 0 ; i < lines.length; i++) 
 	{
